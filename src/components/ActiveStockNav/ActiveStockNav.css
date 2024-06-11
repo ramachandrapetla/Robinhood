@@ -11,4 +11,6 @@
 
 .back-to-markets {
     position: absolute;
+    display: flex;
+    align-items: center;
 }
