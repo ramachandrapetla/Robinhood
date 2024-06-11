@@ -1,5 +1,6 @@
 import './JoinStock.css'
 import logo from '../StockAction/StockIcon.png'
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import Comment from './Comment';
 
 const JoinStock = () => {
@@ -11,7 +12,10 @@ const JoinStock = () => {
             </div>
             <div className="stock-chat-details">
                 <div className="stock-details">
-                    <div className="stock-name">Apple</div>
+                    <div className="stock-name">
+                        <div>Apple</div>
+                        <CheckCircleIcon className="green-check"/>
+                    </div>
                     <p>r/Apple</p>
                     <div className="stock-members">
                         <div>13.5 members</div>

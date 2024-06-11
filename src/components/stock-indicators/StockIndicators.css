@@ -12,3 +12,15 @@
 .key-indicators div:nth-child(1) {
     padding-left: 0;
 }
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+.dropdown div {
+    padding-right: 5px;
+}
+.indicator {
+    display: flex;
+    align-items: center;
+}

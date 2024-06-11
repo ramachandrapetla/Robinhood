@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './StockIndicators.css';
 const StockIndicators = () => {
     const indicators = ['COMP', 'DJIA', 'SPX', 'CL.1', 'GCOO', 'BTC', 'VIX', 'RUT', 'UKX'];
@@ -25,8 +25,14 @@ const StockIndicators = () => {
 
     return (
         <div className="key-indicators pl-10">
-            <div className="dropdown">Key&nbsp;Indicators</div>
-            <div className="dropdown">1h</div>
+            <div className="dropdown">
+                <div>Key&nbsp;Indicators</div>
+                <ExpandMoreIcon/>
+            </div>
+            <div className="dropdown">
+                <div>1h</div>
+                <ExpandMoreIcon/>
+            </div>
             {getKeyIndicatorsFieldData()}
         </div>
     );

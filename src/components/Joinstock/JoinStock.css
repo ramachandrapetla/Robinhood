@@ -115,3 +115,11 @@
 .comment-votes {
     color: #b3b3b3;
 }
+.green-check {
+    color: #1DCF5B;
+    align-items: center;
+    font-size: 16px;
+}
+.stock-name {
+    display: flex
+}
